@@ -1,0 +1,145 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #f4f4f4 !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#3c78b6;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 0px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #3c78b6;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -20px;
+    right: 7px;
+    font-size: 36px;
+}
+
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 0px;}
+  .sidenav a {font-size: 18px;}
+  
+}
+.gold-btn{
+    background: #dd960d !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    border: 0 !important;
+    margin-bottom: 10px;
+}
+#joinedCommunity li{
+    font-size: 13.7px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 0 !important
+}
+#joinedCommunity .list-group-item:hover{
+    background: #d9b060 ;
+}
+.desc p{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.desc{
+    /*height: 100px;
+    overflow-y: scroll;*/
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+    background:linear-gradient(to bottom,white,#c7c5c5);
+}
+.commMembers ul li{
+    font-size: 15px;
+    padding: 7px 10px;
+    border:0;
+}
+.commMembers ul li i{
+    color: #007bff;
+    cursor: pointer;
+}
+.commMembers ul li a{
+    color: #dc3545 !important;
+    font-weight: 700;
+    margin-right: 1%;
+}
+.role{
+    background: #dd960d8c;
+    border-radius: 25px;
+    padding: 2px 12px;
+    margin: 0 8%;
+    font-weight: 500;
+    font-size: 12px;
+}
+.file-btn{
+    position: absolute;
+    bottom: 4px;
+    z-index: 5;
+    width: 40px;
+    left: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+.send-form{
+    position: relative;
+}
+.icon-attach{
+    background: none;
+    border: none;
+    border-right: 1px solid #ced4da;
+    color: #dd960d;
+}
+.chat-user{
+    width: 40px !important;
+}
+.chat-user-img{
+    max-width: 9% !important;
+}
+.sender-text{
+   border-radius: 5px;
+    padding: 5px;
+}
+.receiver-text{
+    border-radius: 5px;
+    padding: 5px;
+    text-align: right;
+    border-radius: 5px;
+}
+.chat-box{
+    background-color: #333;
+    padding: 10px 0 10px 0px;
+    margin-top: 20px;
+}
+.chat-box h6{
+    color: white;
+}
+.sender-text,.receiver-text{
+    min-height: 50px !important;
+}
